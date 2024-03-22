@@ -8,8 +8,9 @@ int main()
         scanf("%i", &numero);
         soma += numero;
         i++;
+        
    }
    while (numero != 0);
-   printf("\nSoma dos valores: %i\n\n", soma);
+   printf("\nmedia dos valores: %i\n\n", soma/(i-2));
    return 0;
 }
